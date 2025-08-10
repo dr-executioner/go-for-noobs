@@ -16,12 +16,19 @@ Each file demonstrates a specific concept with clear, runnable examples.
 | `loops.go`                | For loops, range-based loops                     |
 | `error_handling.go`       | Error values, error checking, idiomatic handling |
 | `defer_panic_recover.go`  | defer statements, panic, recover mechanism       |
+| `type_casting.go`         | Type conversions between int, float, string      |
+| `type_interface.go`       | interface{} type, type assertions, handling any value |
+| `arrays.go`               | Fixed-size collections                          |
+| `slices.go`               | Dynamic arrays, append, slicing                  |
+| `structs.go`              | Custom data types using structs                  |
+| `maps.go`                 | Key-value collections                           |
+| `make_function.go`        | Initializing slices, maps, channels using `make()` |
 
 ---
 
 ## 🚀 How to Run
 
-Invoke the function in main.go file
- 
+Make sure you're inside the `basics/` directory, then run:
+
 ```bash
-go run main.go
+go run filename.go
